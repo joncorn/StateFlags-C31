@@ -10,6 +10,13 @@
 
 @implementation StateController
 
-- (NSArray *)addStates
++ (StateController *)shared {
+    static StateController *shared = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        shared = [StateController new];
+    });
+    return shared;
+}
 
 @end
