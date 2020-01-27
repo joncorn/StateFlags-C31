@@ -13,6 +13,7 @@
 		6DCE0EDB23DF4D6100EE2C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0EDA23DF4D6100EE2C39 /* Assets.xcassets */; };
 		6DCE0EDE23DF4D6100EE2C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0EDC23DF4D6100EE2C39 /* LaunchScreen.storyboard */; };
 		6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0EE023DF4D6100EE2C39 /* main.m */; };
+		6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1023DF4F5E00EE2C39 /* State.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6DCE0EDD23DF4D6100EE2C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DCE0EDF23DF4D6100EE2C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DCE0EE023DF4D6100EE2C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DCE0F0F23DF4F5E00EE2C39 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		6DCE0F1023DF4F5E00EE2C39 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +61,9 @@
 		6DCE0ECD23DF4D5C00EE2C39 /* StateFlagsOBJC31 */ = {
 			isa = PBXGroup;
 			children = (
-				6DCE0F0E23DF4DBF00EE2C39 /* Controllers */,
-				6DCE0F0D23DF4DBB00EE2C39 /* Views */,
 				6DCE0F0C23DF4DB700EE2C39 /* Models */,
+				6DCE0F0D23DF4DBB00EE2C39 /* Views */,
+				6DCE0F0E23DF4DBF00EE2C39 /* Controllers */,
 				6DCE0F0B23DF4DAC00EE2C39 /* Resources */,
 				6DCE0ED723DF4D5C00EE2C39 /* Main.storyboard */,
 			);
@@ -85,6 +88,8 @@
 		6DCE0F0C23DF4DB700EE2C39 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6DCE0F0F23DF4F5E00EE2C39 /* State.h */,
+				6DCE0F1023DF4F5E00EE2C39 /* State.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				6DCE0ED023DF4D5C00EE2C39 /* AppDelegate.m in Sources */,
 				6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */,
 				6DCE0ED323DF4D5C00EE2C39 /* SceneDelegate.m in Sources */,
+				6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StateFlagsOBJC31/Info.plist;
+				INFOPLIST_FILE = StateFlagsOBJC31/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StateFlagsOBJC31/Info.plist;
+				INFOPLIST_FILE = StateFlagsOBJC31/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
