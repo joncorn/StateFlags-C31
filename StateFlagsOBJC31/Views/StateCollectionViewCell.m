@@ -10,6 +10,9 @@
 
 @implementation StateCollectionViewCell
 
+
+// Below is like a didSEt and updateviews
+ 
 - (void)setStatesLanding:(State *)statesLanding
 {
     _statesLanding = statesLanding;
