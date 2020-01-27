@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6DCE0ED023DF4D5C00EE2C39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0ECF23DF4D5C00EE2C39 /* AppDelegate.m */; };
 		6DCE0ED323DF4D5C00EE2C39 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0ED223DF4D5C00EE2C39 /* SceneDelegate.m */; };
-		6DCE0ED623DF4D5C00EE2C39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0ED523DF4D5C00EE2C39 /* ViewController.m */; };
 		6DCE0ED923DF4D5C00EE2C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0ED723DF4D5C00EE2C39 /* Main.storyboard */; };
 		6DCE0EDB23DF4D6100EE2C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0EDA23DF4D6100EE2C39 /* Assets.xcassets */; };
 		6DCE0EDE23DF4D6100EE2C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0EDC23DF4D6100EE2C39 /* LaunchScreen.storyboard */; };
@@ -22,8 +21,6 @@
 		6DCE0ECF23DF4D5C00EE2C39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6DCE0ED123DF4D5C00EE2C39 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6DCE0ED223DF4D5C00EE2C39 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6DCE0ED423DF4D5C00EE2C39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DCE0ED523DF4D5C00EE2C39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DCE0ED823DF4D5C00EE2C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DCE0EDA23DF4D6100EE2C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DCE0EDD23DF4D6100EE2C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,19 +58,49 @@
 		6DCE0ECD23DF4D5C00EE2C39 /* StateFlagsOBJC31 */ = {
 			isa = PBXGroup;
 			children = (
+				6DCE0F0E23DF4DBF00EE2C39 /* Controllers */,
+				6DCE0F0D23DF4DBB00EE2C39 /* Views */,
+				6DCE0F0C23DF4DB700EE2C39 /* Models */,
+				6DCE0F0B23DF4DAC00EE2C39 /* Resources */,
+				6DCE0ED723DF4D5C00EE2C39 /* Main.storyboard */,
+			);
+			path = StateFlagsOBJC31;
+			sourceTree = "<group>";
+		};
+		6DCE0F0B23DF4DAC00EE2C39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6DCE0ECE23DF4D5C00EE2C39 /* AppDelegate.h */,
 				6DCE0ECF23DF4D5C00EE2C39 /* AppDelegate.m */,
 				6DCE0ED123DF4D5C00EE2C39 /* SceneDelegate.h */,
 				6DCE0ED223DF4D5C00EE2C39 /* SceneDelegate.m */,
-				6DCE0ED423DF4D5C00EE2C39 /* ViewController.h */,
-				6DCE0ED523DF4D5C00EE2C39 /* ViewController.m */,
-				6DCE0ED723DF4D5C00EE2C39 /* Main.storyboard */,
 				6DCE0EDA23DF4D6100EE2C39 /* Assets.xcassets */,
 				6DCE0EDC23DF4D6100EE2C39 /* LaunchScreen.storyboard */,
 				6DCE0EDF23DF4D6100EE2C39 /* Info.plist */,
 				6DCE0EE023DF4D6100EE2C39 /* main.m */,
 			);
-			path = StateFlagsOBJC31;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DCE0F0C23DF4DB700EE2C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6DCE0F0D23DF4DBB00EE2C39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DCE0F0E23DF4DBF00EE2C39 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCE0ED623DF4D5C00EE2C39 /* ViewController.m in Sources */,
 				6DCE0ED023DF4D5C00EE2C39 /* AppDelegate.m in Sources */,
 				6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */,
 				6DCE0ED323DF4D5C00EE2C39 /* SceneDelegate.m in Sources */,
