@@ -14,6 +14,8 @@
 		6DCE0EDE23DF4D6100EE2C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCE0EDC23DF4D6100EE2C39 /* LaunchScreen.storyboard */; };
 		6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0EE023DF4D6100EE2C39 /* main.m */; };
 		6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1023DF4F5E00EE2C39 /* State.m */; };
+		6DCE0F1623DF54E200EE2C39 /* StateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1523DF54E200EE2C39 /* StateController.m */; };
+		6DCE0F1A23DF55FF00EE2C39 /* StateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1923DF55FF00EE2C39 /* StateHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		6DCE0EE023DF4D6100EE2C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DCE0F0F23DF4F5E00EE2C39 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
 		6DCE0F1023DF4F5E00EE2C39 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		6DCE0F1423DF54E200EE2C39 /* StateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateController.h; sourceTree = "<group>"; };
+		6DCE0F1523DF54E200EE2C39 /* StateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateController.m; sourceTree = "<group>"; };
+		6DCE0F1823DF55FF00EE2C39 /* StateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateHelper.h; sourceTree = "<group>"; };
+		6DCE0F1923DF55FF00EE2C39 /* StateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 			children = (
 				6DCE0F0F23DF4F5E00EE2C39 /* State.h */,
 				6DCE0F1023DF4F5E00EE2C39 /* State.m */,
+				6DCE0F1823DF55FF00EE2C39 /* StateHelper.h */,
+				6DCE0F1923DF55FF00EE2C39 /* StateHelper.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,8 +112,18 @@
 		6DCE0F0E23DF4DBF00EE2C39 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6DCE0F1723DF54FE00EE2C39 /* ModelControllers */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6DCE0F1723DF54FE00EE2C39 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DCE0F1423DF54E200EE2C39 /* StateController.h */,
+				6DCE0F1523DF54E200EE2C39 /* StateController.m */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DCE0ED023DF4D5C00EE2C39 /* AppDelegate.m in Sources */,
+				6DCE0F1A23DF55FF00EE2C39 /* StateHelper.m in Sources */,
+				6DCE0F1623DF54E200EE2C39 /* StateController.m in Sources */,
 				6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */,
 				6DCE0ED323DF4D5C00EE2C39 /* SceneDelegate.m in Sources */,
 				6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */,
