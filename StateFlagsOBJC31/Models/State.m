@@ -14,9 +14,9 @@
                 abbreviation:(NSString *)abbreviation
 {
     self = [super init];
-    if (self != nil) {
-        _name = [name copy];
-        _abbreviation = [abbreviation copy];
+    if (self) {
+        _name = name;
+        _abbreviation = abbreviation;
     }
     return self;
 }
