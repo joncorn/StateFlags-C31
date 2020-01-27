@@ -20,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype) initWithName:(NSString *)name
                  abbreviation:(NSString *)abbreviation;
 
-
 @end
 
 NS_ASSUME_NONNULL_END

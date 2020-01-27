@@ -10,4 +10,15 @@
 
 @implementation State
 
+- (instancetype)initWithName:(NSString *)name
+                abbreviation:(NSString *)abbreviation
+{
+    self = [super init];
+    if (self != nil) {
+        _name = [name copy];
+        _abbreviation = [abbreviation copy];
+    }
+    return self;
+}
+
 @end
