@@ -16,6 +16,8 @@
 		6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1023DF4F5E00EE2C39 /* State.m */; };
 		6DCE0F1623DF54E200EE2C39 /* StateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1523DF54E200EE2C39 /* StateController.m */; };
 		6DCE0F1A23DF55FF00EE2C39 /* StateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F1923DF55FF00EE2C39 /* StateHelper.m */; };
+		6DCE0F2523DF6CC600EE2C39 /* FlagControllerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F2423DF6CC600EE2C39 /* FlagControllerCollectionViewController.m */; };
+		6DCE0F2823DF6CE500EE2C39 /* StateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCE0F2723DF6CE500EE2C39 /* StateCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		6DCE0F1523DF54E200EE2C39 /* StateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateController.m; sourceTree = "<group>"; };
 		6DCE0F1823DF55FF00EE2C39 /* StateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateHelper.h; sourceTree = "<group>"; };
 		6DCE0F1923DF55FF00EE2C39 /* StateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateHelper.m; sourceTree = "<group>"; };
+		6DCE0F2323DF6CC600EE2C39 /* FlagControllerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagControllerCollectionViewController.h; sourceTree = "<group>"; };
+		6DCE0F2423DF6CC600EE2C39 /* FlagControllerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagControllerCollectionViewController.m; sourceTree = "<group>"; };
+		6DCE0F2623DF6CE500EE2C39 /* StateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateCollectionViewCell.h; sourceTree = "<group>"; };
+		6DCE0F2723DF6CE500EE2C39 /* StateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 		6DCE0F0D23DF4DBB00EE2C39 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6DCE0F2623DF6CE500EE2C39 /* StateCollectionViewCell.h */,
+				6DCE0F2723DF6CE500EE2C39 /* StateCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 		6DCE0F0E23DF4DBF00EE2C39 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6DCE0F1F23DF6C6300EE2C39 /* ViewControllers */,
 				6DCE0F1723DF54FE00EE2C39 /* ModelControllers */,
 			);
 			path = Controllers;
@@ -124,6 +133,15 @@
 				6DCE0F1523DF54E200EE2C39 /* StateController.m */,
 			);
 			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		6DCE0F1F23DF6C6300EE2C39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DCE0F2323DF6CC600EE2C39 /* FlagControllerCollectionViewController.h */,
+				6DCE0F2423DF6CC600EE2C39 /* FlagControllerCollectionViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +216,9 @@
 			files = (
 				6DCE0ED023DF4D5C00EE2C39 /* AppDelegate.m in Sources */,
 				6DCE0F1A23DF55FF00EE2C39 /* StateHelper.m in Sources */,
+				6DCE0F2523DF6CC600EE2C39 /* FlagControllerCollectionViewController.m in Sources */,
 				6DCE0F1623DF54E200EE2C39 /* StateController.m in Sources */,
+				6DCE0F2823DF6CE500EE2C39 /* StateCollectionViewCell.m in Sources */,
 				6DCE0EE123DF4D6100EE2C39 /* main.m in Sources */,
 				6DCE0ED323DF4D5C00EE2C39 /* SceneDelegate.m in Sources */,
 				6DCE0F1123DF4F5E00EE2C39 /* State.m in Sources */,
