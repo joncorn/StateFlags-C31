@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 // var states: [State] = []
 @property (nonatomic, strong) NSArray *states;
 
+// how we're fetching states
 - (NSArray *)addStates;
 
 @end
