@@ -24,10 +24,6 @@ static NSString * const reuseIdentifier = @"stateCell";
 }
 
 #pragma mark <UICollectionViewDataSource>
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 2;
-}
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return StateController.shared.states.count;
 }

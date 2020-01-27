@@ -36,8 +36,8 @@
 - (NSArray *)addStates
 {
     NSMutableArray *statesArrayToReturn = [[NSMutableArray alloc] init];
-    for (NSString *stateFullName in StateHelper.stateNames) {
-        NSInteger index = [StateHelper.stateNames indexOfObject:stateFullName];
+    for (NSString *stateFullName in [StateHelper stateName]) {
+        NSInteger index = [StateHelper.stateName indexOfObject:stateFullName];
         NSString *abbreviation = [StateHelper.stateAbbreviations objectAtIndex:index];
         State *state = [[State alloc] initWithName:stateFullName abbreviation:abbreviation];
         [statesArrayToReturn addObject:state];
