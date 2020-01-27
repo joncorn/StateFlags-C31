@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface StateHelper : NSObject
 
-+ (NSArray *)stateName;
++ (NSArray *)stateNames;
 + (NSArray *)stateAbbreviations;
 
 @end
